@@ -69,46 +69,6 @@ p {
     font-weight: 300;
 }
 
-/* 동그라미에 <>버튼 */
-.btn_type01 .arrows {
-    position: absolute;
-    left: 50%;
-    bottom: 10.0rem;
-
-    max-height: 9.0rem;
-    height: 100%;
-
-    margin: 0 0 0 -70.5rem;
-}
-
-.btn_type01 .arrows span {
-    width: 4.0rem;
-    height: 4.0rem;
-
-    font-size: 2.0rem;
-    line-height: 4.1rem;
-    text-align: center;
-
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.btn_type01 .arrows .left {
-    position: absolute;
-    top: 0;
-}
-.btn_type01 .arrows .right {
-    position: absolute;
-    bottom: 0;
-}
-.btn_type01 .arrows .left:hover {
-    background: rgba(255, 255, 255, 1);
-}
-.btn_type01 .arrows .right:hover {
-    background: rgba(255, 255, 255, 1);
-}
 
 /* 테두리 동그라미에 > 버튼 */
 .btn_type02 {
