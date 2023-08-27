@@ -14,7 +14,7 @@ $(function () {
         navigation: false,
         css3: false,
         //반응형에서 fullpage 안하기.
-        responsiveWidth: 700,
+        // responsiveWidth: 700,
         //넘치는 부분 스크롤 하기.
         scrollOverflow: true,
         afterRender: function () {
@@ -126,11 +126,11 @@ $(function () {
         $(this).addClass('on').siblings().removeClass('on');
     });
 
-    $('.main_view .arrows .left').on('click', function () {
+    $('.main_view .btn_type03 .left').on('click', function () {
         $('.view_slide').slick('slickPrev');
     });
 
-    $('.main_view .arrows .right').on('click', function () {
+    $('.main_view .btn_type03 .right').on('click', function () {
         $('.view_slide').slick('slickNext');
     });
 
@@ -144,4 +144,17 @@ $(function () {
             e.preventDefault();
         }
     });
+
+    $('.h_wrap').on('wheel', function (e) {
+        if ($('.gnb').hasClass('on')) {
+            e.preventDefault();
+        }
+    });
+
+    $('.btn_ham').on('wheel', function (e) {
+        if ($('.gnb').hasClass('on')) {
+            e.preventDefault();
+        }
+    });
+
 });
