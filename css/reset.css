@@ -16,7 +16,7 @@
 
 body {
     line-height: 1;
-    color: #222;
+    color: #444;
 }
 
 ul,
@@ -51,13 +51,5 @@ input::-webkit-search-results-decoration{
 
 button {
     border: none;
-    outline: none;
-    background: none;
-    user-select: none;
-    cursor: pointer;
-}
-
-.slick-track,
-.slick-list {
-    transition-delay: 30ms;
+    background: inherit;
 }
