@@ -1342,6 +1342,7 @@
     gap: 3.0rem;
     top: 8.5%;
     border-bottom: 1px solid #ddd;
+    width: 100vw;
   }
 
   .main_coll .tap_list>li {
